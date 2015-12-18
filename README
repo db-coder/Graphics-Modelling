@@ -1,0 +1,34 @@
+Assignment 1: Modelling-Viewing Pipeline : Modelling
+
+Team Members: 
+				Dibyendu Mondal - 130050046
+				Anand Bhoraskar - 130050025
+
+Instructions:
+
+Steps to run the program:
+cd A1/
+make
+./assign1
+
+Other Instructions:
+By default it's in Modelling mode.
+One can draw polygons by clicking on the screen.
+Currently for simplicity for the user we are taking input the z-coordinate. We are increasing it by a factor of a small constant after a click.
+We are drawing the polygon at the instant the user clicks at any point.
+By pressing 'K' one can save the points clicked till now in a file.
+In the raw file we are storing points in the format X,Y,Z,R,G,B and three consecutive points that form a triangle are stored one after the other.
+Wecan go to the Inspection mode by pressing 'I' and then rotate or translate the current object by pressing the keys Up Arrow, Down Arrow, Left Arrow, Right Arrow, PgUp, PgDn, A, D, W, S, Z and X for Y, X and Z axis respectively. 
+Also by pressing 'R' the object's centroid is shifted to the origin.
+One can also load a raw file by pressing 'L'.
+There are 3 raw files: shampoo.raw, rose.raw and goggles.raw
+These operations are currently available in the Inspection mode only.
+We can go back to the Modelling mode by pressing 'M' and the draw new objects directly.
+
+Report Link:
+http://www.cse.iitb.ac.in/~dibyendu/CS475_Assignment1
+
+Citations:
+We used http://math.stackexchange.com/ for looking into some basic algorithms on how to find centroid of a 3D Polygon.
+We used https://www.opengl.org for finding different OpenGL commands/syntax and their documentation.
+We used http://www.cplusplus.com/reference/ to search for a few STLs and their different member functions.
